@@ -34,95 +34,102 @@ function myFunction() {
     console.log(n)
 
     //--------------------------------------------------------------------------Here's the issue
-    if (n == "January") {
+    if (n === "January") {
         document.getElementById("january").style.display = 'block'
         console.log('taco')
     }
     else {
         document.getElementById("january").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n == "February") {
+    if (n === "February") {
         document.getElementById("february").style.display = 'block'
         console.log('edgar')
     }
     else {
         document.getElementById("february").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "March") {
+    if (n === "March") {
         document.getElementById("march").style.display = 'block'
     }
     else {
         document.getElementById("march").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "April") {
+    if (n === "April") {
         document.getElementById("april").style.display = 'block'
     }
     else {
         document.getElementById("april").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "May") {
+    if (n === "May") {
         document.getElementById("may").style.display = 'block'
     }
     else {
         document.getElementById("may").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "June") {
+    if (n === "June") {
         document.getElementById("june").style.display = 'block'
     }
     else {
         document.getElementById("june").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "July") {
+    if (n === "July") {
         document.getElementById("july").style.display = 'block'
     }
     else {
         document.getElementById("july").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "fuck") {
+    if (n === "August") {
         document.getElementById("august").style.display = 'block'
-        document.getElementById("august").innerHTML = "fuck"
     }
     else {
         document.getElementById("august").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "September") {
+    if (n === "September") {
         document.getElementById("september").style.display = 'block'
     }
     else {
         document.getElementById("september").style.display = 'none'
-        console.log('pizza')
+
     }
 
-    if (n = "October") {
+    if (n === "October") {
         document.getElementById("october").style.display = 'block'
     }
+    else {
+        document.getElementById("october").style.display = 'none'
 
-    if (n = "November") {
-        document.getElementById("october").style.display = 'block'
     }
 
-    if (n = "December") {
+    if (n === "November") {
+        document.getElementById("novemober").style.display = 'block'
+    }
+    else {
+        document.getElementById("november").style.display = 'none'
+
+    }
+
+    if (n === "December") {
         document.getElementById("december").style.display = 'block'
     }
     else {
         document.getElementById("december").style.display = 'none'
-        console.log('pizza')
+
     }
     //-----------------------------------------------------------------------------------
 
