@@ -1,5 +1,5 @@
 function myFunction() {
-    //---------------------------------Unused variables
+    //---------------------------------Used variables
     var month = new Array();
     month[0] = "January";
     month[1] = "February";
@@ -31,12 +31,19 @@ function myFunction() {
     var day = day[d.getDay()];
     var y = d.getFullYear();
 
+    document.getElementById("month").innerHTML = n;
+    document.getElementById("month").style.fontWeight = "bold";
+    document.getElementById("month").style.fontSize = "1em";
+    document.getElementById("year").innerHTML = y;
+    document.getElementById("year").style.fontWeight = "bold";
+    document.getElementById("year").style.fontSize = "1em";
+
     console.log(n)
+    console.log(y)
 
     //--------------------------------------------------------------------------Here's the issue
     if (n === "January") {
         document.getElementById("january").style.display = 'block'
-        console.log('taco')
     }
     else {
         document.getElementById("january").style.display = 'none'
@@ -45,7 +52,6 @@ function myFunction() {
 
     if (n === "February") {
         document.getElementById("february").style.display = 'block'
-        console.log('edgar')
     }
     else {
         document.getElementById("february").style.display = 'none'
@@ -133,11 +139,6 @@ function myFunction() {
     }
     //-----------------------------------------------------------------------------------
 
-    document.getElementById("month").innerHTML = n;
-    document.getElementById("month").style.fontWeight = "bold";
-    document.getElementById("month").style.fontSize = "1em";
-    document.getElementById("year").innerHTML = y;
-    document.getElementById("year").style.fontWeight = "bold";
-    document.getElementById("year").style.fontSize = "1em";
+
 
 }
