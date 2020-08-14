@@ -1,25 +1,14 @@
-
-.date {
-    background-color: sandybrown;
-    font-size: 2em;
-    cursor: pointer;
-}
-
-#initial,
-#week1 {
-    margin-left: 6%;
-    margin-top: 6%;
-    padding: .1em;
-}
-
-#day,
 #month,
 #year {
 float: left;
 }
 
-#day,
 #month,
 #year {
 padding: .2em;
+}
+
+
+#january, #february, #march, #april, #may, #june, #july, #august, #september, #october, #november, #december {
+    display: none;
 }

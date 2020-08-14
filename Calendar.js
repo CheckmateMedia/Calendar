@@ -26,11 +26,69 @@ function myFunction() {
 
     var d = new Date();
     var n = month[d.getMonth()];
+
     var day = day[d.getDay()];
     var y = d.getFullYear();
-    document.getElementById("day").innerHTML = day;
-    document.getElementById("day").style.fontWeight = "bold";
-    document.getElementById("day").style.fontSize = "1em";
+
+    console.log(n)
+
+    if (n == "January") {
+        document.getElementById("january").style.display = 'block'
+        console.log('taco')
+    }
+    else {
+        document.getElementById("january").style.display = 'none'
+        console.log('pizza')
+    }
+
+
+
+    if (n == "February") {
+        document.getElementById("february").style.display = 'block'
+        console.log('edgar')
+    }
+
+    if (n = "March") {
+        document.getElementById("march").style.display = 'block'
+    }
+
+    if (n = "April") {
+        document.getElementById("april").style.display = 'block'
+    }
+
+    if (n = "May") {
+        document.getElementById("may").style.display = 'block'
+    }
+
+    if (n = "June") {
+        document.getElementById("june").style.display = 'block'
+    }
+
+    if (n = "July") {
+        document.getElementById("july").style.display = 'block'
+    }
+
+    if (n = "fuck") {
+        document.getElementById("august").style.display = 'block'
+        document.getElementById("august").innerHTML = "fuck"
+    }
+    if (n = "September") {
+        document.getElementById("september").style.display = 'block'
+    }
+
+    if (n = "October") {
+        document.getElementById("october").style.display = 'block'
+    }
+
+    if (n = "November") {
+        document.getElementById("november").style.display = 'block'
+    }
+
+    if (n = "December") {
+        document.getElementById("december").style.display = 'block'
+    }
+
+
     document.getElementById("month").innerHTML = n;
     document.getElementById("month").style.fontWeight = "bold";
     document.getElementById("month").style.fontSize = "1em";
@@ -38,8 +96,4 @@ function myFunction() {
     document.getElementById("year").style.fontWeight = "bold";
     document.getElementById("year").style.fontSize = "1em";
 
-
-    document.getElementById("week1").innerHTML = day + " " + n + " " + y;
-    document.getElementById("week1").style.fontWeight = "bold";
-    document.getElementById("week1").style.fontSize = "1em";
 }
