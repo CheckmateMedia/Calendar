@@ -1,14 +1,35 @@
-#month,
-#year {
-float: left;
-}
-
-#month,
-#year {
+#month {
 padding: .2em;
+margin-left: 33%;
 }
 
+#year {
+    padding: .2em;
+    margin-left: 38%;
+    }
+
+    .day {
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #one {
+       
+    }
 
 #january, #february, #march, #april, #may, #june, #july, #august, #september, #october, #november, #december {
     display: none;
+}
+
+.block1 {
+    margin-left: 30%;
+}
+
+.block2 {
+    margin-left: 30%;
+}
+
+.block3 {
+    margin-left: 30%;
 }
