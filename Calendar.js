@@ -51,58 +51,72 @@ function myFunction() {
     if (date === 1 && (n === "August")) {
         document.getElementById('aug1').style.color = "gold"
         document.getElementById('aug1').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 2 && (n === "August")) {
         document.getElementById('aug2').style.color = "gold"
         document.getElementById('aug2').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 3 && (n === "August")) {
         document.getElementById('aug3').style.color = "gold"
         document.getElementById('aug3').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 4 && (n === "August")) {
         document.getElementById('aug4').style.color = "gold"
         document.getElementById('aug4').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 5 && (n === "August")) {
         document.getElementById('aug5').style.color = "gold"
         document.getElementById('aug5').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 6 && (n === "August")) {
         document.getElementById('aug6').style.color = "gold"
         document.getElementById('aug6').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 7 && (n === "August")) {
         document.getElementById('aug7').style.color = "gold"
         document.getElementById('aug7').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 8 && (n === "August")) {
         document.getElementById('aug8').style.color = "gold"
         document.getElementById('aug8').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 9 && (n === "August")) {
         document.getElementById('aug9').style.color = "gold"
         document.getElementById('aug9').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 10 && (n === "August")) {
         document.getElementById('aug10').style.color = "gold"
         document.getElementById('aug10').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 11 && (n === "August")) {
         document.getElementById('aug11').style.color = "gold"
         document.getElementById('aug11').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 12 && (n === "August")) {
         document.getElementById('aug12').style.color = "gold"
         document.getElementById('aug12').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 13 && (n === "August")) {
         document.getElementById('aug13').style.color = "gold"
         document.getElementById('aug15\3').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 14 && (n === "August")) {
         document.getElementById('aug14').style.color = "gold"
         document.getElementById('aug14').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 15 && (n === "August")) {
         document.getElementById('aug15').style.color = "gold"
@@ -112,66 +126,82 @@ function myFunction() {
     if (date === 16 && (n === "August")) {
         document.getElementById('aug16').style.color = "gold"
         document.getElementById('aug16').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 17 && (n === "August")) {
         document.getElementById('aug17').style.color = "gold"
         document.getElementById('aug17').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 18 && (n === "August")) {
         document.getElementById('aug18').style.color = "gold"
         document.getElementById('aug18').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 19 && (n === "August")) {
         document.getElementById('aug19').style.color = "gold"
         document.getElementById('aug19').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 20 && (n === "August")) {
         document.getElementById('aug20').style.color = "gold"
         document.getElementById('aug20').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 21 && (n === "August")) {
         document.getElementById('aug21').style.color = "gold"
         document.getElementById('aug21').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 22 && (n === "August")) {
         document.getElementById('aug22').style.color = "gold"
         document.getElementById('aug22').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 23 && (n === "August")) {
         document.getElementById('aug23').style.color = "gold"
         document.getElementById('aug24').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 24 && (n === "August")) {
         document.getElementById('aug24').style.color = "gold"
         document.getElementById('aug24').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 25 && (n === "August")) {
         document.getElementById('aug25').style.color = "gold"
         document.getElementById('aug25').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 26 && (n === "August")) {
         document.getElementById('aug26').style.color = "gold"
         document.getElementById('aug26').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 27 && (n === "August")) {
         document.getElementById('aug27').style.color = "gold"
         document.getElementById('aug27').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 28) {
         document.getElementById('aug28').style.color = "gold"
         document.getElementById('aug28').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 29 && (n === "August")) {
         document.getElementById('aug29').style.color = "gold"
         document.getElementById('aug29').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 30 && (n === "August")) {
         document.getElementById('aug30').style.color = "gold"
         document.getElementById('aug30').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
     if (date === 31 && (n === "August")) {
         document.getElementById('aug31').style.color = "gold"
         document.getElementById('aug31').style.fontSize = "2em"
+        document.body.style.backgroundColor = "#ff6a57";
     }
 
     //----------------------------------------------------------------------------------Jessie!!!!!!!!!!!!!!!!!!!!!!!
