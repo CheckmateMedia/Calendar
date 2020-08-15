@@ -1,350 +1,398 @@
-<link rel="stylesheet" href="Calendar.css">
+<! !DOCTYPE html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calendar.css">
 
-<body onload="javascript:myFunction()">
-    <div id="cal">
-        <div id="month"></div>
-        <div id="year"></div> <br><br>
+    <body onload="javascript:myFunction()">
+        <div id="cal">
+            <div id="month"></div>
+            <div id="year"></div> <br><br>
 
-        <div id="january">
-            <div class="block1">
-                <div class="day" id="jan1">1</div>
-                <div class="day" id="jan2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="february">
-            <div class="block1">
-                <div class="day" id="day1">1</div>
-                <div class="day" id="day2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="march">
-            <div class="block1">
-                <div class="day" id="day1">1</div>
-                <div class="day" id="day2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="april">
-            <div class="block1">
-                <div class="day" id="day1">1</div>
-                <div class="day" id="day2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="may">
-            <div class="block1">
-                <div class="day" id="day1">1</div>
-                <div class="day" id="day2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="june">
-            <div class="block1">
-                <div class="day" id="day1">1</div>
-                <div class="day" id="day2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="july">
-            <div class="block1">
-                <div class="day" id="day1">1</div>
-                <div class="day" id="day2">2</div>
-                <div class="day" id="day3">3</div>
-                <div class="day" id="day4">4</div>
-                <div class="day" id="day4">5</div>
-                <div class="day" id="day6">6</div>
-                <div class="day" id="day7">7</div>
-                <div class="day" id="day8">8</div>
-                <div class="day" id="day9">9</div>
-                <div class="day" id="day10">10</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day11">11</div>
-                <div class="day" id="day12">12</div>
-                <div class="day" id="day13">13</div>
-                <div class="day" id="day14">14</div>
-                <div class="day" id="day15">15</div>
-                <div class="day" id="day16">16</div>
-                <div class="day" id="day17">17</div>
-                <div class="day" id="day18">18</div>
-            </div>
-            <br><br>
-            <div class="block2">
-                <div class="day" id="day19">19</div>
-                <div class="day" id="day20">20</div>
-                <div class="day" id="day21">21</div>
-                <div class="day" id="day22">22</div>
-                <div class="day" id="day23">23</div>
-                <div class="day" id="day24">24</div>
-                <div class="day" id="day25">25</div>
-                <div class="day" id="day26">26</div>
-            </div>
-            <br><br>
-            <div class="block3">
-                <div class="day" id="day27">27</div>
-                <div class="day" id="day28">28</div>
-                <div class="day" id="day29">29</div>
-                <div class="day" id="day30">30</div>
-                <div class="day" id="day31">31</div>
-            </div>
-        </div>
-
-        <div id="august">
-            <div id="aug">
+            <div id="january">
                 <div class="block1">
-                    <div class="day">1</div>
-                    <div class="day">2</div>
-                    <div class="day">3</div>
-                    <div class="day">4</div>
-                    <div class="day">5</div>
-                    <div class="day">6</div>
-                    <div class="day">7</div>
-                    <div class="day">8</div>
-                    <div class="day">9</div>
-                    <div class="day">10</div>
+                    <div class="day" id="jan1">1</div>
+                    <div class="day" id="jan2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
                 </div>
                 <br><br>
                 <div class="block2">
-                    <div class="day" id="aug11">11</div>
-                    <div class="day" id="aug12">12</div>
-                    <div class="day" id="aug13">13</div>
-                    <div class="day" id="aug14">14</div>
-                    <div class="day" id="aug15">15</div>
-                    <div class="day" id="aug16">16</div>
-                    <div class="day" id="aug17">17</div>
-                    <div class="day" id="aug18">18</div>
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
                 </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="february">
+                <div class="block1">
+                    <div class="day" id="day1">1</div>
+                    <div class="day" id="day2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="march">
+                <div class="block1">
+                    <div class="day" id="day1">1</div>
+                    <div class="day" id="day2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="april">
+                <div class="block1">
+                    <div class="day" id="day1">1</div>
+                    <div class="day" id="day2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="may">
+                <div class="block1">
+                    <div class="day" id="day1">1</div>
+                    <div class="day" id="day2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="june">
+                <div class="block1">
+                    <div class="day" id="day1">1</div>
+                    <div class="day" id="day2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="july">
+                <div class="block1">
+                    <div class="day" id="day1">1</div>
+                    <div class="day" id="day2">2</div>
+                    <div class="day" id="day3">3</div>
+                    <div class="day" id="day4">4</div>
+                    <div class="day" id="day4">5</div>
+                    <div class="day" id="day6">6</div>
+                    <div class="day" id="day7">7</div>
+                    <div class="day" id="day8">8</div>
+                    <div class="day" id="day9">9</div>
+                    <div class="day" id="day10">10</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day11">11</div>
+                    <div class="day" id="day12">12</div>
+                    <div class="day" id="day13">13</div>
+                    <div class="day" id="day14">14</div>
+                    <div class="day" id="day15">15</div>
+                    <div class="day" id="day16">16</div>
+                    <div class="day" id="day17">17</div>
+                    <div class="day" id="day18">18</div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day" id="day19">19</div>
+                    <div class="day" id="day20">20</div>
+                    <div class="day" id="day21">21</div>
+                    <div class="day" id="day22">22</div>
+                    <div class="day" id="day23">23</div>
+                    <div class="day" id="day24">24</div>
+                    <div class="day" id="day25">25</div>
+                    <div class="day" id="day26">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day" id="day27">27</div>
+                    <div class="day" id="day28">28</div>
+                    <div class="day" id="day29">29</div>
+                    <div class="day" id="day30">30</div>
+                    <div class="day" id="day31">31</div>
+                </div>
+            </div>
+
+            <div id="august">
+                <div id="aug">
+                    <div class="block1">
+                        <div class="day">1</div>
+                        <div class="day">2</div>
+                        <div class="day">3</div>
+                        <div class="day">4</div>
+                        <div class="day">5</div>
+                        <div class="day">6</div>
+                        <div class="day">7</div>
+                        <div class="day">8</div>
+                        <div class="day">9</div>
+                        <div class="day">10</div>
+                    </div>
+                    <br><br>
+                    <div class="block2">
+                        <div class="day" id="aug11">11</div>
+                        <div class="day" id="aug12">12</div>
+                        <div class="day" id="aug13">13</div>
+                        <div class="day" id="aug14">14</div>
+                        <div class="day" id="aug15">15</div>
+                        <div class="day" id="aug16">16</div>
+                        <div class="day" id="aug17">17</div>
+                        <div class="day" id="aug18">18</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="block2">
+                    <div class="day">19</div>
+                    <div class="day">20</div>
+                    <div class="day">21</div>
+                    <div class="day">22</div>
+                    <div class="day">23</div>
+                    <div class="day">24</div>
+                    <div class="day">25</div>
+                    <div class="day">26</div>
+                </div>
+                <br><br>
+                <div class="block3">
+                    <div class="day">27</div>
+                    <div class="day">28</div>
+                    <div class="day">29</div>
+                    <div class="day">30</div>
+                    <div class="day">31</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="september">
+            <div class="block1">
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+                <div class="day">5</div>
+                <div class="day">6</div>
+                <div class="day">7</div>
+                <div class="day">8</div>
+                <div class="day">9</div>
+                <div class="day">10</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day">11</div>
+                <div class="day">12</div>
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day">18</div>
             </div>
             <br><br>
             <div class="block2">
@@ -366,186 +414,140 @@
                 <div class="day">31</div>
             </div>
         </div>
-    </div>
 
-    <div id="september">
-        <div class="block1">
-            <div class="day">1</div>
-            <div class="day">2</div>
-            <div class="day">3</div>
-            <div class="day">4</div>
-            <div class="day">5</div>
-            <div class="day">6</div>
-            <div class="day">7</div>
-            <div class="day">8</div>
-            <div class="day">9</div>
-            <div class="day">10</div>
+        <div id="october">
+            <div class="block1">
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+                <div class="day">5</div>
+                <div class="day">6</div>
+                <div class="day">7</div>
+                <div class="day">8</div>
+                <div class="day">9</div>
+                <div class="day">10</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day">11</div>
+                <div class="day">12</div>
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day">18</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day">19</div>
+                <div class="day">20</div>
+                <div class="day">21</div>
+                <div class="day">22</div>
+                <div class="day">23</div>
+                <div class="day">24</div>
+                <div class="day">25</div>
+                <div class="day">26</div>
+            </div>
+            <br><br>
+            <div class="block3">
+                <div class="day">27</div>
+                <div class="day">28</div>
+                <div class="day">29</div>
+                <div class="day">30</div>
+            </div>
         </div>
-        <br><br>
-        <div class="block2">
-            <div class="day">11</div>
-            <div class="day">12</div>
-            <div class="day">13</div>
-            <div class="day">14</div>
-            <div class="day">15</div>
-            <div class="day">16</div>
-            <div class="day">17</div>
-            <div class="day">18</div>
-        </div>
-        <br><br>
-        <div class="block2">
-            <div class="day">19</div>
-            <div class="day">20</div>
-            <div class="day">21</div>
-            <div class="day">22</div>
-            <div class="day">23</div>
-            <div class="day">24</div>
-            <div class="day">25</div>
-            <div class="day">26</div>
-        </div>
-        <br><br>
-        <div class="block3">
-            <div class="day">27</div>
-            <div class="day">28</div>
-            <div class="day">29</div>
-            <div class="day">30</div>
-            <div class="day">31</div>
-        </div>
-    </div>
 
-    <div id="october">
-        <div class="block1">
-            <div class="day">1</div>
-            <div class="day">2</div>
-            <div class="day">3</div>
-            <div class="day">4</div>
-            <div class="day">5</div>
-            <div class="day">6</div>
-            <div class="day">7</div>
-            <div class="day">8</div>
-            <div class="day">9</div>
-            <div class="day">10</div>
+        <div id="november">
+            <div class="block1">
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+                <div class="day">5</div>
+                <div class="day">6</div>
+                <div class="day">7</div>
+                <div class="day">8</div>
+                <div class="day">9</div>
+                <div class="day">10</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day">11</div>
+                <div class="day">12</div>
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day">18</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day">19</div>
+                <div class="day">20</div>
+                <div class="day">21</div>
+                <div class="day">22</div>
+                <div class="day">23</div>
+                <div class="day">24</div>
+                <div class="day">25</div>
+                <div class="day">26</div>
+            </div>
+            <br><br>
+            <div class="block3">
+                <div class="day">27</div>
+                <div class="day">28</div>
+                <div class="day">29</div>
+                <div class="day">30</div>
+                <div class="day">31</div>
+            </div>
         </div>
-        <br><br>
-        <div class="block2">
-            <div class="day">11</div>
-            <div class="day">12</div>
-            <div class="day">13</div>
-            <div class="day">14</div>
-            <div class="day">15</div>
-            <div class="day">16</div>
-            <div class="day">17</div>
-            <div class="day">18</div>
-        </div>
-        <br><br>
-        <div class="block2">
-            <div class="day">19</div>
-            <div class="day">20</div>
-            <div class="day">21</div>
-            <div class="day">22</div>
-            <div class="day">23</div>
-            <div class="day">24</div>
-            <div class="day">25</div>
-            <div class="day">26</div>
-        </div>
-        <br><br>
-        <div class="block3">
-            <div class="day">27</div>
-            <div class="day">28</div>
-            <div class="day">29</div>
-            <div class="day">30</div>
-        </div>
-    </div>
 
-    <div id="november">
-        <div class="block1">
-            <div class="day">1</div>
-            <div class="day">2</div>
-            <div class="day">3</div>
-            <div class="day">4</div>
-            <div class="day">5</div>
-            <div class="day">6</div>
-            <div class="day">7</div>
-            <div class="day">8</div>
-            <div class="day">9</div>
-            <div class="day">10</div>
+        <div id="december">
+            <div class="block1">
+                <div class="day" id="day1">1</div>
+                <div class="day" id="day2">2</div>
+                <div class="day" id="day3">3</div>
+                <div class="day" id="day4">4</div>
+                <div class="day" id="day4">5</div>
+                <div class="day" id="day6">6</div>
+                <div class="day" id="day7">7</div>
+                <div class="day" id="day8">8</div>
+                <div class="day" id="day9">9</div>
+                <div class="day" id="day10">10</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day" id="day11">11</div>
+                <div class="day" id="day12">12</div>
+                <div class="day" id="day13">13</div>
+                <div class="day" id="day14">14</div>
+                <div class="day" id="day15">15</div>
+                <div class="day" id="day16">16</div>
+                <div class="day" id="day17">17</div>
+                <div class="day" id="day18">18</div>
+            </div>
+            <br><br>
+            <div class="block2">
+                <div class="day" id="day19">19</div>
+                <div class="day" id="day20">20</div>
+                <div class="day" id="day21">21</div>
+                <div class="day" id="day22">22</div>
+                <div class="day" id="day23">23</div>
+                <div class="day" id="day24">24</div>
+                <div class="day" id="day25">25</div>
+                <div class="day" id="day26">26</div>
+            </div>
+            <br><br>
+            <div class="block3">
+                <div class="day" id="day27">27</div>
+                <div class="day" id="day28">28</div>
+                <div class="day" id="day29">29</div>
+                <div class="day" id="day30">30</div>
+                <div class="day" id="day31">31</div>
+            </div>
         </div>
-        <br><br>
-        <div class="block2">
-            <div class="day">11</div>
-            <div class="day">12</div>
-            <div class="day">13</div>
-            <div class="day">14</div>
-            <div class="day">15</div>
-            <div class="day">16</div>
-            <div class="day">17</div>
-            <div class="day">18</div>
-        </div>
-        <br><br>
-        <div class="block2">
-            <div class="day">19</div>
-            <div class="day">20</div>
-            <div class="day">21</div>
-            <div class="day">22</div>
-            <div class="day">23</div>
-            <div class="day">24</div>
-            <div class="day">25</div>
-            <div class="day">26</div>
-        </div>
-        <br><br>
-        <div class="block3">
-            <div class="day">27</div>
-            <div class="day">28</div>
-            <div class="day">29</div>
-            <div class="day">30</div>
-            <div class="day">31</div>
-        </div>
-    </div>
 
-    <div id="december">
-        <div class="block1">
-            <div class="day" id="day1">1</div>
-            <div class="day" id="day2">2</div>
-            <div class="day" id="day3">3</div>
-            <div class="day" id="day4">4</div>
-            <div class="day" id="day4">5</div>
-            <div class="day" id="day6">6</div>
-            <div class="day" id="day7">7</div>
-            <div class="day" id="day8">8</div>
-            <div class="day" id="day9">9</div>
-            <div class="day" id="day10">10</div>
-        </div>
-        <br><br>
-        <div class="block2">
-            <div class="day" id="day11">11</div>
-            <div class="day" id="day12">12</div>
-            <div class="day" id="day13">13</div>
-            <div class="day" id="day14">14</div>
-            <div class="day" id="day15">15</div>
-            <div class="day" id="day16">16</div>
-            <div class="day" id="day17">17</div>
-            <div class="day" id="day18">18</div>
-        </div>
-        <br><br>
-        <div class="block2">
-            <div class="day" id="day19">19</div>
-            <div class="day" id="day20">20</div>
-            <div class="day" id="day21">21</div>
-            <div class="day" id="day22">22</div>
-            <div class="day" id="day23">23</div>
-            <div class="day" id="day24">24</div>
-            <div class="day" id="day25">25</div>
-            <div class="day" id="day26">26</div>
-        </div>
-        <br><br>
-        <div class="block3">
-            <div class="day" id="day27">27</div>
-            <div class="day" id="day28">28</div>
-            <div class="day" id="day29">29</div>
-            <div class="day" id="day30">30</div>
-            <div class="day" id="day31">31</div>
-        </div>
-    </div>
-
-</body>
-<script src="Calendar.js"></script>
+    </body>
+    <script src="Calendar.js"></script>
