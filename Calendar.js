@@ -35,11 +35,15 @@ function myFunction() {
     x = new Date();
     var date = x.getDate();
     console.log(date)
+    console.log(day)
 
     //-------------------------------------------------------------------------- Gets month/year
     document.getElementById("month").innerHTML = n;
     document.getElementById("month").style.fontWeight = "bold";
     document.getElementById("month").style.fontSize = "3em";
+    document.getElementById("day").innerHTML = day;
+    document.getElementById("day").style.fontWeight = "bold";
+    document.getElementById("day").style.fontSize = "1.5em";
     document.getElementById("year").innerHTML = y;
     document.getElementById("year").style.fontWeight = "bold";
     document.getElementById("year").style.fontSize = "1.5em";

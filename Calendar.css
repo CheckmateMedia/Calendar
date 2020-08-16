@@ -1,9 +1,5 @@
 
 
-#year {
-    padding: .2em;
-    }
-
 .day {
         float: left;
         padding-left: 1em;
@@ -39,6 +35,10 @@
 #txt {
     z-index: 3;
     text-align: center;
+}
+
+#day {
+    float: left;
 }
 
 
