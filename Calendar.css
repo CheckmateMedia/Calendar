@@ -1,35 +1,44 @@
-#month {
-padding: .2em;
-margin-left: 33%;
-}
+
 
 #year {
     padding: .2em;
-    margin-left: 38%;
     }
 
-    .day {
+.day {
         float: left;
-        padding-left: 1%;
-        padding-right: 1%;
-        /*
-        padding-top: .5em;
-        padding-bottom: .5em;
-    */
+        padding-left: 1em;
+        text-align: center;
     }
 
-
-    #one {
-       
+#cal {
+        text-align: center;
+        margin-left: 10%;
     }
 
 #january, #february, #march, #april, #may, #june, #july, #august, #september, #october, #november, #december {
     display: none;
 }
 
-#cal {
-    margin-left: 30%;
+#calBG {
+    z-index: -1;
+    background-color: white;
+    height: 27em;
+    width: 22em;
+    z-index: 2;
+    margin-left: 33%;
+    margin-top: 5em;
 }
 
+#monthYear {
+    text-align: center;
+    margin-top: 2em;
+    float: left;
+    margin-left: 33%;
+}
+
+#txt {
+    z-index: 3;
+    text-align: center;
+}
 
 
