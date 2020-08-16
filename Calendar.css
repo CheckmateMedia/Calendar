@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 100%) {
     #calBG {
       width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
     }
