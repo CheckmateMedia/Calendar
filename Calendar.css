@@ -1,4 +1,7 @@
-
+@media screen and (max-width: 800px) {
+    #calBG {
+      width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
 
 .day {
         float: left;
