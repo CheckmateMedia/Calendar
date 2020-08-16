@@ -15,13 +15,13 @@ function myFunction() {
     month[11] = "December";
 
     var day = new Array();
-    day[0] = "Sunday,";
-    day[1] = "Monday,";
-    day[2] = "Tuesday,";
-    day[3] = "Wednesday,";
-    day[4] = "Thursday,";
-    day[5] = "Friday,";
-    day[6] = "Saturday,";
+    day[0] = "Sunday";
+    day[1] = "Monday";
+    day[2] = "Tuesday";
+    day[3] = "Wednesday";
+    day[4] = "Thursday";
+    day[5] = "Friday";
+    day[6] = "Saturday";
 
 
     //-------------------------------------Gets the date
