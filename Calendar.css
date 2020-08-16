@@ -1,3 +1,8 @@
+@media screen and (max-width: 3000px) {
+    .left, .main, .right {
+      width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
 .day {
         float: left;
         padding-left: 1em;
